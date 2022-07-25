@@ -44,7 +44,16 @@ nav {
 #more_info a {
     text-decoration: none;
     color: white;
+    font-size: 1.8vw;
+    font-weight: 200;
 
+}
+
+#more_info a:hover {
+    text-decoration: overline;
+    text-decoration-thickness: 0.25vw;
+    font-size: 1.5vw;
+    font-weight: 600;
 }
 
 #logs {
@@ -56,10 +65,44 @@ nav {
     align-items: center;
 }
 
-#logs button {
+#logs_b1 {
+    width: 30%;
+    height: 60%;
+    font-size: 1.8vw;
+    font-weight: 700;
+    border-radius: 7px;
+    border: thin double white;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logs_b1:hover {
+    width: 25%;
+    height: 50%;
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+
+#logs_b2 {
+    width: 60%;
+    height: 60%;
+    font-size: 1.8vw;
+    border-radius: 7px;
+    font-weight: 700;
     border: thin solid white;
-    font: 1.8vw;
-    font-weight: 600;
-    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logs_b2:hover {
+    width: 50%;
+    height: 50%;
+    font-size: 1.5vw;
+    font-weight: 200;
 }
