@@ -343,6 +343,12 @@ main {
 
 }
 
+/* ---------------Section3------------------------------- */
+#sect3 h3 {
+    text-align: center;
+    color: #004526;
+}
+
 /* ---------------absolute images--------------------- */
 .over_image {
     height: 25vw;
