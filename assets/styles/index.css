@@ -16,6 +16,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+    position: sticky;
+    z-index: 1;
 }
 
 #logo {
@@ -108,11 +110,11 @@ nav {
 
 /* ---------------------Mai----------------------------- */
 main {
+
     background-color: rgba(0, 69, 38, 0.03);
     margin-top: 0.2%;
     width: 100%;
     height: 34.3vw;
-    border: #004526 solid thin;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -188,6 +190,10 @@ main {
     align-items: center;
 }
 
+#sect_but2 img {
+    width: 13%;
+}
+
 #sect1_info {
     margin-top: 2%;
     width: 100%;
@@ -208,17 +214,29 @@ main {
     justify-content: space-evenly;
     align-items: center;
     font-size: 1.6vw;
+    background-color: rgba(46, 139, 87, 0.05);
+}
+
+#s1info a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: #004526;
+    font-weight: 600;
+}
+
+.partner:hover {
+    width: 25%;
 }
 
 /* ------------------Section1------------------------------- */
-section div {
+/* section div {
     border: #004526 solid thin;
 }
-
+ */
 #sect1 {
     width: 100%;
     height: 10vw;
-    border: #004526 thin solid;
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -232,6 +250,8 @@ section div {
     width: 25%;
     color: #004526;
     padding-left: 2%;
+    background-color: rgba(46, 139, 87, 0.05);
+    border-radius: 0.2vw;
 }
 
 #sect1 h3 {
@@ -240,4 +260,76 @@ section div {
 
 #sect1 p {
     font-size: 1.4vw;
+}
+
+/* ---------------scetion 2------------------------ */
+#sect2 div {
+    border: #004526 solid thin;
+}
+
+#sect2 {
+    background-color: rgba(46, 139, 87, 0.05);
+    width: 100%;
+    height: 20vw;
+    border: #004526 solid thin;
+    border-top-left-radius: 10vw;
+    border-bottom-left-radius: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#sect2_div1 {
+    width: 30%;
+    height: 90%;
+    border-radius: 9vw;
+    background-color: white;
+    margin-left: 0.9%;
+}
+
+#sect2_div1 img {
+    height: 100%;
+    border-radius: 9vw;
+    width: 100%;
+}
+
+#sect2_div2 {
+    width: 67%;
+    height: 90%;
+}
+
+#sect2_div2 h2 {
+    color: #004526;
+    font-size: 2.5vw;
+}
+
+#sect2_div2 p {
+    color: #004526;
+    font-size: 1.7vw;
+}
+
+
+
+/* ---------------absolute images--------------------- */
+#over_image1 {
+    width: 18%;
+    height: 25vw;
+    position: absolute;
+    left: 50%;
+    border-top-left-radius: 9vw;
+    border-top-right-radius: 9vw;
+    border-bottom-left-radius: 9vw;
+    border-bottom-right-radius: 9vw;
+    top: 7vw;
+}
+
+#over_image1 img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 9vw;
+    border-top-right-radius: 9vw;
+    border-bottom-left-radius: 9vw;
+    border-bottom-right-radius: 9vw;
 }
