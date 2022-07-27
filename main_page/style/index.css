@@ -4,6 +4,7 @@ nav div {
 
 * {
     margin: 0;
+    font-family: 'Taviraj', serif;
 }
 
 /* --------------------Navigation---------------------------- */
@@ -73,7 +74,6 @@ nav {
 #section1 {
     width: 100%;
     height: 4vw;
-    border: thin #004526 solid;
     margin-top: 1%;
     display: flex;
     flex-direction: row;
@@ -82,9 +82,44 @@ nav {
 }
 
 #sect1_cont {
-    width: 40%;
+    width: 20%;
     height: 100%;
     border: #004526 thin solid;
     background-color: rgba(0, 69, 38, 0.1);
     border-radius: 0.5vw;
+    color: #004526;
+    font-size: 2.0vw;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sect1_cont:hover {
+    width: 18%;
+    height: 90%;
+    font-weight: 400;
+    background-color: #004526;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------------Scetion 2------------------------------- */
+#section2 {
+    width: 100%;
+    height: 7vw;
+    border: #004526 thin solid;
+    margin-top: 0.2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.jobs_but {
+    font-size: 1.5vw;
 }
